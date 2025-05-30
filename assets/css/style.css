@@ -1,17 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 html,
 body {
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   background-color: #1a1a1a;
   text-shadow: -1px -1px 0 #000, 2px -1px 0 #000, -1px 2px 0 #000,
     2px 2px 0 #000;
   color: white !important;
 }
 
+body {
+  padding-top: 56px;
+  margin-bottom: 60px;
+}
+
 .navbar-brand {
-  font-family: 'Oswald', sans-serif !important;
+  font-family: "Oswald", sans-serif !important;
   text-transform: uppercase !important;
 }
 
@@ -22,7 +27,7 @@ h4,
 h5,
 h6 {
   font-weight: 700 !important;
-  font-family: 'Oswald', sans-serif !important;
+  font-family: "Oswald", sans-serif !important;
   text-transform: uppercase !important;
 }
 
@@ -49,7 +54,7 @@ h2 {
 }
 
 .btn {
-  font-family: 'Oswald', sans-serif !important;
+  font-family: "Oswald", sans-serif !important;
   text-transform: uppercase !important;
 }
 
@@ -107,7 +112,7 @@ a {
 .goog-te-gadget a {
   color: white !important;
   font-weight: 700 !important;
-  font-family: 'Oswald', sans-serif !important;
+  font-family: "Oswald", sans-serif !important;
   text-transform: uppercase !important;
   margin-bottom: 1em;
   text-align: center !important;
