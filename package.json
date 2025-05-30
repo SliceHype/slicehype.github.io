@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "slicehype.github.io",
   "version": "1.0.0",
   "main": "index.js",
