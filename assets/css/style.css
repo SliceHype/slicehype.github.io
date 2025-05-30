@@ -157,3 +157,7 @@ article {
 .watch-video img {
   border: 1px solid rgb(221, 32, 32);
 }
+
+.article img {
+  border: 1px solid rgb(126, 42, 151);
+}
