@@ -83,7 +83,7 @@ a {
 
 .navbar {
   margin-top: -56px;
-  padding: 0.25em !important;
+  padding: 0 !important;
 }
 
 .navbar a {
@@ -160,10 +160,6 @@ article {
 
 .border-yellow {
   border: 1px solid rgb(255, 206, 70);
-}
-
-nav {
-  padding: 0 !important;
 }
 
 .nav-item {
