@@ -161,3 +161,18 @@ article {
 .border-yellow {
   border: 1px solid rgb(229, 255, 0);
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  z-index: 999;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  border-top: 2px solid rgb(126, 42, 151);
+}
