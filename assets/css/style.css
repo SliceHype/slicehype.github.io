@@ -151,5 +151,8 @@ article {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 2px solid rgb(221, 32, 32);
+}
+
+.watch-video img {
+  border: 1px solid rgb(221, 32, 32);
 }
