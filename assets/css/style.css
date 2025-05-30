@@ -161,11 +161,3 @@ article {
 .border-yellow {
   border: 1px solid rgb(229, 255, 0);
 }
-
-.nav-item {
-  background-color: rgba(0, 0, 0, 0.5) !important;
-}
-
-.nav-item:nth-of-type(1) {
-  border-right: 1px solid rgba(0, 0, 0, 0.5) !important;
-}
