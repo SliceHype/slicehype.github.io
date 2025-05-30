@@ -161,3 +161,7 @@ article {
 article img {
   border: 1px solid rgb(206, 47, 255);
 }
+
+article a {
+  text-align: left !important;
+}
