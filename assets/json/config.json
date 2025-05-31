@@ -3,27 +3,27 @@
     {
       "id": 0,
       "title": "Dragon Ball",
-      "url": "dragon-ball"
+      "url": "/news/dragon-ball/"
     },
     {
       "id": 1,
       "title": "Dragon Ball Z",
-      "url": "dragon-ball-z"
+      "url": "/news/dragon-ball-z/"
     },
     {
       "id": 2,
       "title": "Dragon Ball Super",
-      "url": "dragon-ball-super"
+      "url": "/news/dragon-ball-super/"
     },
     {
       "id": 3,
       "title": "Dragon Ball GT",
-      "url": "dragon-ball-gt"
+      "url": "/news/dragon-ball-gt/"
     },
     {
       "id": 4,
       "title": "Dragon Ball Daima",
-      "url": "dragon-ball-daima"
+      "url": "/news/dragon-ball-daima/"
     }
   ],
   "news": [
@@ -31,7 +31,11 @@
       "id": 0,
       "category_id": 4,
       "title": "🔥 Goku Unleashes a Savage Transformation in Dragon Ball Daima 🐒 Is This the Return of Primal Power?",
-      "tags": []
+      "date": "2025-06-01",
+      "headers": [],
+      "content": [],
+      "tags": [],
+      "url": "/news/2025-06-01/goku-unleashes-a-savage-transformation-in-dragon-ball-daima/"
     }
   ]
 }
