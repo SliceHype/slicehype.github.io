@@ -1,0 +1,24 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Dragon Ball"
+    },
+    {
+      "id": 2,
+      "name": "Dragon Ball Z"
+    },
+    {
+      "id": 3,
+      "name": "Dragon Ball Super"
+    },
+    {
+      "id": 4,
+      "name": "Dragon Ball GT"
+    },
+    {
+      "id": 5,
+      "name": "Dragon Ball Daima"
+    }
+  ]
+}
