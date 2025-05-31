@@ -12,4 +12,8 @@ async function fetchVideoData() {
   }
 }
 
-console.log(fetchVideoData());
+async function fetchAll() {
+	return await fetchVideoData();
+}
+
+console.log(fetchAll());
