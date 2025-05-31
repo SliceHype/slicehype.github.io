@@ -5,7 +5,7 @@
     const headerHtml = await headerData;
     document
       .querySelector("body")
-      .insertAdjacentHTML("beforestart", headerHtml);
+      .insertAdjacentHTML("beforebegin", headerHtml);
 
     const footerData = fetchFooter();
     const footerHtml = await footerData;
