@@ -155,16 +155,16 @@ article {
 
 .watch-video img {
   border: 1px solid rgb(221, 32, 32);
-  -webkit-box-shadow: 0px 0px 25px 5px rgba(255, 0, 0, 1);
-  -moz-box-shadow: 0px 0px 25px 5px rgba(255, 0, 0, 1);
-  box-shadow: 0px 0px 25px 5px rgba(255, 0, 0, 1);
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(255, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(255, 0, 0, 1);
+  box-shadow: 0px 0px 25px 0px rgba(255, 0, 0, 1);
 }
 
 .border-yellow {
   border: 1px solid rgb(229, 255, 0);
-  -webkit-box-shadow: 0px 0px 25px 5px rgba(255, 234, 0, 1);
-  -moz-box-shadow: 0px 0px 25px 5px rgba(255, 234, 0, 1);
-  box-shadow: 0px 0px 25px 5px rgba(255, 234, 0, 1);
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(255, 234, 0, 1);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(255, 234, 0, 1);
+  box-shadow: 0px 0px 25px 0px rgba(255, 234, 0, 1);
 }
 
 .text-purple {
