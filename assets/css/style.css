@@ -13,7 +13,6 @@ body {
 
 body {
   padding-top: 56px;
-  padding-bottom: 80px;
 }
 
 .navbar-brand {
@@ -163,16 +162,6 @@ article {
 }
 
 .footer {
-  position: absolute;
-  left: 0;
+  position: relative;
   bottom: 0;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.85);
-  color: white;
-  text-align: center;
-  padding: 1em 0;
-  z-index: 999;
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
-  border-top: 2px solid rgb(126, 42, 151);
 }
