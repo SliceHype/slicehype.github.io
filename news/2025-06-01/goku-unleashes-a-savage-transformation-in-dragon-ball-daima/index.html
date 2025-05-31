@@ -1,9 +1,13 @@
 <script src="https://www.slicehype.tv/assets/js/controller.js"></script>
 <script>
   (async () => {
+    const fetchHeader = fetchHeader();
+    const headerHtml = await fetchHeader();
+    document.querySelector("body").append(headerHtml);
+
     const footerData = fetchFooter();
     const footerHtml = await footerData;
-    document.querySelector("footer").innerHTML = footerHtml;
+    document.querySelector("body").append(footerHtml);
 
     const data = fetchData();
     const json = await data;
