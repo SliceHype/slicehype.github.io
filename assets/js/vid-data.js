@@ -1,6 +1,6 @@
 async function fetchVideoData() {
   try {
-    const response = await fetch("../json/config.json");
+    const response = await fetch("https://www.slicehype.tv/assets/json/config.json");
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
