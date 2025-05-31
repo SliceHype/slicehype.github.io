@@ -9,6 +9,17 @@ async function fetchHeader() {
   }
 }
 
+async function fetchMain() {
+  try {
+    const res = await fetch("https://www.slicehype.tv/layout/main.html");
+    const data = await res.text();
+
+    return data;
+  } catch (e) {
+    console.error(e);
+  }
+}
+
 async function fetchFooter() {
   try {
     const res = await fetch("https://www.slicehype.tv/layout/footer.html");

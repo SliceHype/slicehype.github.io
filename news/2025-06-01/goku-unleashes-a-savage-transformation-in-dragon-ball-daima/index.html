@@ -3,17 +3,21 @@
   (async () => {
     const headerData = fetchHeader();
     const headerHtml = await headerData;
-    document.querySelector("body").append(headerHtml);
+    document.querySelector("body").insertAdjacentHTML("beforeend", headerHtml);
+
+    const mainData = fetchMain();
+    const mainHtml = await mainData;
+    document.querySelector("body").insertAdjacentHTML("beforeend", mainHtml);
 
     const footerData = fetchFooter();
     const footerHtml = await footerData;
-    document.querySelector("body").append(footerHtml);
+    document.querySelector("body").insertAdjacentHTML("beforeend", footerHtml);
 
     const data = fetchData();
     const json = await data;
     console.log(json);
 
-    document.querySelector("#ass").innerHTML = json.news[0].title;
+    document.querySelector("#ass").insertAd = json.news[0].title;
   })();
 </script>
 <div id="ass"></div>
