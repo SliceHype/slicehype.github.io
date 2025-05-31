@@ -4,6 +4,8 @@
     const data = fetchData();
     const json = await data;
     console.log(json);
+
+    document.querySelector("#ass").innerHTML = json.categories[0].name;
   })();
 </script>
 <div id="ass"></div>
