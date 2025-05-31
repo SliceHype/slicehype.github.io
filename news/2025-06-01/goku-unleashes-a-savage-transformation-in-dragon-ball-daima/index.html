@@ -1,6 +1,10 @@
 <script src="https://www.slicehype.tv/assets/js/controller.js"></script>
 <script>
-  const data = fetchData();
-  document.querySelector("#ass").innerHTML = data.categories[0].name;
+  async function postData() {
+    const data = await fetchData().json();
+    console.log(data);
+  }
+
+  postData();
 </script>
 <div id="ass"></div>
