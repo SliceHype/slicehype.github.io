@@ -160,8 +160,3 @@ article {
 .border-yellow {
   border: 1px solid rgb(229, 255, 0);
 }
-
-.footer {
-  position: relative;
-  bottom: 0;
-}
