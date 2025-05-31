@@ -2,27 +2,27 @@
   "categories": [
     {
       "id": 0,
-      "name": "Dragon Ball",
+      "title": "Dragon Ball",
       "url": "dragon-ball"
     },
     {
       "id": 1,
-      "name": "Dragon Ball Z",
+      "title": "Dragon Ball Z",
       "url": "dragon-ball-z"
     },
     {
       "id": 2,
-      "name": "Dragon Ball Super",
+      "title": "Dragon Ball Super",
       "url": "dragon-ball-super"
     },
     {
       "id": 3,
-      "name": "Dragon Ball GT",
+      "title": "Dragon Ball GT",
       "url": "dragon-ball-gt"
     },
     {
       "id": 4,
-      "name": "Dragon Ball Daima",
+      "title": "Dragon Ball Daima",
       "url": "dragon-ball-daima"
     }
   ],
