@@ -1,9 +1,7 @@
 <script src="https://www.slicehype.tv/assets/js/controller.js"></script>
 <script>
   async function postData() {
-    const data = fetchData();
-    const json = await data.json();
-    console.log(data);
+    console.log(await fetchData());
   }
 
   postData();
