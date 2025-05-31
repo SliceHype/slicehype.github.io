@@ -1,8 +1,8 @@
 <script src="https://www.slicehype.tv/assets/js/controller.js"></script>
 <script>
   (async () => {
-    const fetchHeader = fetchHeader();
-    const headerHtml = await fetchHeader();
+    const headerData = fetchHeader();
+    const headerHtml = await headerData();
     document.querySelector("body").append(headerHtml);
 
     const footerData = fetchFooter();
